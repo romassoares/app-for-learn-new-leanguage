@@ -1,0 +1,17 @@
+{
+    "name": "romas/testelogica",
+    "autoload": {
+        "psr-4": {
+            "app\\": "app"
+        }
+    },
+    "authors": [
+        {
+            "name": "romassores",
+            "email": "anotonioromas@gmail.com"
+        }
+    ],
+    "require": {
+        "league/plates": "^3.5"
+    }
+}

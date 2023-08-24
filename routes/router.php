@@ -6,17 +6,23 @@ $router = [
     "GET" => [
         "/" => fn () => load("HomeController", "index"),
 
-        "/indexCard" => fn () => load("CardController", "index"),
+        "/login" => fn () => load("AuthController", "login"),
 
-        "/indexDeck" => fn () => load("DeckController", "index"),
+        "/indexUser" => fn () => load("UserController", "index"),
 
-        "/indexStudySession" => fn () => load("StudySessionController", "index"),
+        // "/indexCard" => fn () => load("CardController", "index"),
+
+        // "/indexDeck" => fn () => load("DeckController", "index"),
+
+        // "/indexStudySession" => fn () => load("StudySessionController", "index"),
     ],
     "POST" => [
-        "/saveCard" => fn () => load("CardController", "store"),
+        "/authenticate" => fn () => load("AuthController", "authenticate"),
 
-        "/saveDeck" => fn () => load("DeckController", "store"),
+        // "/saveCard" => fn () => load("CardController", "store"),
 
-        "/saveStudySession" => fn () => load("StudySessionController", "store"),
+        // "/saveDeck" => fn () => load("DeckController", "store"),
+
+        // "/saveStudySession" => fn () => load("StudySessionController", "store"),
     ],
 ];

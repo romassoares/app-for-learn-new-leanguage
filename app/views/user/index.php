@@ -10,20 +10,19 @@
         <thead>
             <tr>
                 <th>#</th>
-                <th>max_cards_per_day</th>
+                <th>name</th>
+                <th>email</th>
                 <th>actions</th>
             </tr>
         </thead>
         <tbody>
             <tr>
-                <td>1</td>
-                <td>asdf</td>
-                <td>
-                    <div>
-                        action
-                    </div>
-                </td>
+
+                <?php foreach ($users as $user) : ?>
+                    <td> <?php echo ($user) ?> </td>
+                <?php endforeach ?>
             </tr>
+
         </tbody>
     </table>
 </div>

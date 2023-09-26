@@ -52,22 +52,22 @@ hr {
 table {
     width: 100%;
     border-collapse: collapse;
-}
-
-table thead {
-    background-color: #a0a0a0;
-}
-
-table thead tr:nth-child(even) {
-    background-color: #f2f2f2;
-}
-
-table tbody tr:hover {
-    background-color: coral;
-}
-
-table tbody tr td {
-    text-align: center;
+    
+     thead {
+        background-color: #a0a0a0;
+        
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+    }
+    
+     tbody tr:hover {
+        background-color: coral;
+        
+        tr td {
+            text-align: center;
+        }
+    }
 }
 
 /*  */
@@ -82,13 +82,12 @@ table tbody tr td {
 
 .menu-item {
     padding: 10px 20px;
-}
-
-.menu-item a {
-    /* border: 1px solid black; */
-    text-decoration: none;
-    font-size: 23px;
-    padding: 10px 20px;
+     a {
+        /* border: 1px solid black; */
+        text-decoration: none;
+        font-size: 23px;
+        padding: 10px 20px;
+    }
 }
 
 /* content */
@@ -117,15 +116,15 @@ table tbody tr td {
     position: static;
     border: 1px solid black !important;
     justify-content: center;
-}
-
-.footer-itens ul {
-    display: flex;
-    align-items: center;
-    flex-direction: row;
-    list-style: none;
-}
-
-.footer-itens ul li {
-    padding: 10px 20px;
+    
+     ul {
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        list-style: none;
+        
+        li {
+            padding: 10px 20px;
+        }
+    }
 }
